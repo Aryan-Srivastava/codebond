@@ -1,35 +1,44 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import HeaderBar from './components/HeaderBar'
+import Header from './components/Header';
+import ClientArea from './components/ClientArea';
+import HowWeDoArea from './components/HowWeDoArea';
+import ServiceArea from './components/ServiceArea';
+import CaseStudioArea from './components/CaseStudioArea';
+import AboutArea from './components/AboutArea';
+import TestimonialArea from './components/TestimonialArea';
+import ProjectArea from './components/ProjectArea';
+import NewsArea from './components/NewsArea';
+import FeatureArea from './components/FeatureArea';
+import ContactArea from './components/ContactArea';
+import Footer from './components/Footer';
+import "./assets/css/bootstrap.min.css";
+import "./assets/css/jsvectormap.css";
+import "./assets/css/responsive.css";
+import "./assets/css/style.css";
+import "./assets/css/swiper-bundle.min.css";
+import HeroEmpowermentArea from './components/HeroEmpowermentArea';
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <main class="main-page homepage">
+      <HeaderBar />
+      <Header />
+      <HeroEmpowermentArea />
+      <ClientArea />
+      <HowWeDoArea />
+      <ServiceArea />
+      <CaseStudioArea />
+      <AboutArea />
+      <TestimonialArea />
+      <ProjectArea />
+      <NewsArea />
+      <FeatureArea />
+      <ContactArea />
+      <Footer />
+    </main>
   )
-}
+  }
 
-export default App
+
+export default App;
