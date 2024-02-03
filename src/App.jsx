@@ -21,7 +21,7 @@ import HeroEmpowermentArea from './components/HeroEmpowermentArea';
 function App() {
 
   return (
-    <main class="main-page homepage">
+    <main className="main-page homepage">
       <HeaderBar />
       <Header />
       <HeroEmpowermentArea />
