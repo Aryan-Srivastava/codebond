@@ -17,6 +17,8 @@ import "./assets/css/responsive.css";
 import "./assets/css/style.css";
 import "./assets/css/swiper-bundle.min.css";
 import HeroEmpowermentArea from './components/HeroEmpowermentArea';
+import CaseStudy from './components/CaseStudy/CaseStudy'
+
 
 function App() {
 
@@ -28,7 +30,8 @@ function App() {
       <ClientArea />
       <HowWeDoArea />
       <ServiceArea />
-      <CaseStudioArea />
+      {/* <CaseStudioArea /> */}
+      <CaseStudy />
       <AboutArea />
       <TestimonialArea />
       <ProjectArea />
