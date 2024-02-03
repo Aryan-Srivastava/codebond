@@ -10,7 +10,7 @@ const ProjectArea = () => {
             <h1 className="section-title">Showcase of
                 our recognized
                 work</h1>
-            <p>Our collaborative approach ensures that we truly understand our clients' unique requirements and challenges.</p>
+            <p>Our collaborative approach ensures that we truly understand our clients  unique requirements and challenges.</p>
             <ul>
               <li>
                 <i className="las la-check"></i> Managed Services and Products
